@@ -85,18 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
 				createList(movieDB.movies, promoList);
 			});
 		});
-
-
-
-		// let deleteBtns = parent.querySelectorAll(".delete");
-		// for (let temp of deleteBtns){
-		// 	temp.addEventListener("click", () => {
-		// 		let textDelete = temp.parentElement.textContent.slice(3);
-		// 		let indexDelete = movieDB.movies.indexOf(textDelete);
-		// 		movieDB.movies.splice(indexDelete, 1);
-		// 		createList(movieDB.movies, promoList);
-		// 	});
-		// }
 	}
 
 	startChange();
